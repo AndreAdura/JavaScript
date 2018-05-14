@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title></title>
+
+
+</head>
+<body>
+
+	<p id="demo"></p>
+
+	<script>
+		let oddNumbers = [];
+		let counter = 0;
+		let value = 1;
+		
+
+		for (counter = 0; counter < 8; counter += 1){
+			oddNumbers[counter] = value;
+			value += 2;
+		}
+		
+		document.getElementById('demo').innerHTML = oddNumbers;
+		
+
+	</script>
+</body>
+</html>

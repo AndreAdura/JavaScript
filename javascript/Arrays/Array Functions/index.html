@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title></title>
+
+
+</head>
+<body>
+
+	<p id="demo"></p>
+
+	<script>
+		let colorArray = ["red", "orange", "yellow", "green", "blue", "purple", "bus"];
+		 // THIS WILL DELETE THE LAST ARRAY ITEM
+		colorArray.pop();
+
+		let studentsArray = ["Andre", "Satori", "Hibiki"];
+		// THIS ONE WILL ADD A ITEM TO THE ARRAY
+		studentsArray.push("Milad");
+
+		let coffeeStores = ["starbucks", "tomhortons","treehouse", "brain station", "wave", "second cup", "blendz coffee"];
+		// <!--THIS WILL ADD THE ITEM IN THE FIRST POSITION-->
+		coffeeStores.unshift("coffee company");
+		// THIS ONE REMOVE THE FIRST ITEM
+		coffeeStores.shift();
+
+		let languagesArray = ["portuguese", "farsi", "japanese", "turkish"];
+		// THIS ONE INDICATE THE POSITION TO ADD NEW ITEMS AND REMOVE ANTHER ONE Ex: splice("add in position", "remove this item", "new items to be added")
+		languagesArray.splice(2,0, "english", "spanish");
+
+
+		document.getElementById('demo').innerHTML = languagesArray
+
+	</script>
+</body>
+</html>

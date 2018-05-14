@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title></title>
+
+
+</head>
+<body>
+
+	<p id="result"></p>
+
+
+	<script>
+		let numberArray = [10, 50, 97, 22, 9, 13, 15, 93, 75]
+		let i = 0
+		let sum = 0
+
+		for (i = 0; i <9; i += 1){
+			
+			sum = sum + numberArray[i];
+		}
+
+		let avarege = sum / numberArray.length;
+
+		document.getElementById('result').innerHTML = avarege;
+
+	</script>
+</body>
+</html>

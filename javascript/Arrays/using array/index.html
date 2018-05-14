@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+		<head>
+			<title></title>
+		</head>
+		<body>
+			<p id="demo"> Something</p>
+			<p class="studentNames"></p>
+			<p class="studentNames"></p>
+			<p class="studentNames"></p>
+			<p class="studentNames"></p>
+			<script>
+				let student1 =  "Satori";
+				let student2 =  "Hibiki";
+				let student3 =  "Andre";
+				let student4 =  "Milad";
+				let info = document.getElementsByClassName('studentNames');
+				info[0].innerHTML = "The Name of the student1 is " +  student1;
+				info[1].innerHTML = "The Name of the student2 is " +  student2;
+				info[2].innerHTML = "The Name of the student3 is " +  student3;
+				info[3].innerHTML = "The Name of the student4 is " +  student4;
+				
+				let info2 = document.getElementById("demo");
+				info2.innerHTML = "These are the student names";
+			</script>
+			
+		</body>
+		</html>		

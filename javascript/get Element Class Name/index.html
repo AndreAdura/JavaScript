@@ -1,0 +1,29 @@
+<!doctype html>
+<html lag="en">
+<head>
+	<title>JavaScript get Element by Class Name</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		
+	</script>
+</head>
+<body>
+	<p class="demos">first</p>
+	<p class="demos">second</p>
+	<p class="demos">third</p>
+	<p class="demos">last one</p>
+
+		<script>
+			let info = document.getElementsByClassName('demos')
+			// info[0]
+			// info[1]
+			// info[2]
+			// info[3]
+			info[0].innerHTML = "Hello JavaScript"
+			info[1].innerHTML = "Hello again"
+			info[2].innerHTML = "change the third one"
+			info[3].innerHTML = "change the last one"
+		
+	</script>
+</body>
+</html>
